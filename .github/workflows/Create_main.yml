@@ -1,0 +1,11 @@
+name: Prmier workflow
+
+on: push
+
+jobs:
+ hola_mundo:
+  runs-on: ubuntu-lastest
+
+  steps:
+   - name: Mostrar mensaje
+     run: echo "Hola Git Actions"
